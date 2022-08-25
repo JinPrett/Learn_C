@@ -1,5 +1,7 @@
-﻿double numberA = 1;
-double numberB = 5;
+﻿double numberA = new Random().Next(1, 10);
+double numberB = new Random().Next(1, 10);
+Console.WriteLine("Первое число - " + numberA);
+Console.WriteLine("Второе число - " + numberB);
 double resultSum = numberA + numberB;
 double resultDiv = numberA / numberB;
 Console.Write("Сумма чисел ");
